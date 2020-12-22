@@ -20,5 +20,11 @@ ls -lha'''
       }
     }
 
+    stage('Print Message') {
+      steps {
+        echo 'Next Stage In Pipeline'
+      }
+    }
+
   }
 }
